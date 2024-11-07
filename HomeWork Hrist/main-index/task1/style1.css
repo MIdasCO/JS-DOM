@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-left: 600px;
+    padding-top: 200px;
+    background-color: antiquewhite;
+}
+form {
+    width: 300px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.error {
+    border: 2px solid red;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+}
